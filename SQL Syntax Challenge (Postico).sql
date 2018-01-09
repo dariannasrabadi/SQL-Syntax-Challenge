@@ -66,3 +66,6 @@ VALUES ('darian', 'minneapolis', 1, 1, 999999.99);
 
 SELECT * FROM accounts
 WHERE transactions_completed < 5 AND city = 'miami' OR transactions_completed < 5 AND city = 'phoenix';
+
+DELETE FROM accounts
+WHERE transactions_completed < 5 AND city = 'miami' OR transactions_completed < 5 AND city = 'phoenix';
